@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://music-encoding.org/schema/4.0.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><mei xml:id="m4zhcil1" meiversion="4.0.1" xmlns="http://www.music-encoding.org/ns/mei">
+
+   <meiHead xml:id="mkm70q2">
+      <fileDesc xml:id="f7hztj31">
+         <titleStmt xml:id="t8wjpgd">
+            <title xml:id="tyaedcr1">RONDENA</title>
+            <respStmt xml:id="r7pxusq1">
+               <persName xml:id="pxj6ksx2" role="composer">Arash Saatchi</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt xml:id="p4akyp6">
+            <date xml:id="ddyzkyg1" isodate="2026-04-06" type="encoding-date">2026-04-06</date>
+         </pubStmt>
+      </fileDesc>
+      <encodingDesc xml:id="e2y66an1">
+         <appInfo xml:id="azd51vv1">
+            <application xml:id="ax7tmf61" isodate="2026-03-30T01:43:24" version="6.1.0-682d606">
+               <name xml:id="nbao2tz2">Verovio</name>
+               <p xml:id="pehs1jm2">Transcoded from MusicXML</p>
+            </application>
+            <application xml:id="akide0e1" enddate="2026-04-21T01:26:43" startdate="2026-04-06T21:25:24" version="1.2.9">
+               <name xml:id="nxxmfl81">mei-friend</name>
+               <p xml:id="ptlrr7q1">First edit by mei-friend 1.2.9.</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+
+   <music xml:id="m6xizlq1">
+      <body xml:id="bcd3c8w2">
+         <mdiv xml:id="m53guxe">
+            <score xml:id="s4tp2jt2">
+               <scoreDef xml:id="sodenkw1">
+                  <pgHead xml:id="p7zcnrn2">
+                     <rend xml:id="r09ja1" fontsize="larger" halign="center" valign="top">RONDENA</rend>
+                     <rend xml:id="rg9m7n51" halign="center" valign="top">Flamenco Guitar Concerto</rend>
+                     <rend xml:id="rn08tdw1" halign="right" valign="bottom">Arash Saatchi (1981)</rend>
+                  </pgHead>
+
+                  <staffGrp xml:id="s49ufjs2">
+                     <staffGrp xml:id="scv7p3y2" bar.thru="true">
+                        <grpSym xml:id="gz2vp5y1" symbol="bracket"/>
+                        <staffGrp xml:id="sqxrrqo2" bar.thru="true">
+                           <grpSym xml:id="gsxdbmv1" symbol="bracketsq"/>
+                           <staffDef xml:id="svfsi4c" lines="5" n="1" trans.diat="7" trans.semi="12">
+                              <label xml:id="loo8uzq2">Piccolo</label>
+                              <labelAbbr xml:id="lhn8jrw1">Picc.</labelAbbr>
+                              <clef xml:id="cfnf3f21" line="2" shape="G"/>
+                              <keySig xml:id="kpkbdjy2" sig="0"/>
+                              <meterSig xml:id="mjci3jm1" count="3" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="s9487ot1" lines="5" n="2" trans.diat="7" trans.semi="12">
+                              <label xml:id="lc4bo2e1">Piccolo</label>
+                              <labelAbbr xml:id="lgs6hyw2">Picc.</labelAbbr>
+                              <clef xml:id="co1lhfw1" line="2" shape="G"/>
+                              <keySig xml:id="kiw4pj31" sig="0"/>
+                              <meterSig xml:id="m4tu1dx2" count="3" unit="4"/>
+                           </staffDef>
+                        </staffGrp>
+
+                        <staffDef xml:id="stcppel2" lines="5" n="3">
+                           <label xml:id="lr70x0f">2 Flutes</label>
+                           <labelAbbr xml:id="l1yx5ij1">Fl.</labelAbbr>
+                           <clef xml:id="cdjzvex2" line="2" shape="G"/>
+                           <keySig xml:id="k0m0sqe1" sig="0"/>
+                           <meterSig xml:id="mv1ookt2" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffGrp xml:id="s1hvks31" bar.thru="true">
+                           <grpSym xml:id="gom51au1" symbol="bracketsq"/>
+                           <staffDef xml:id="sreg657" lines="5" n="4">
+                              <label xml:id="lba4jus1">2 Oboes</label>
+                              <labelAbbr xml:id="lpz0gm8">Ob.</labelAbbr>
+                              <clef xml:id="c98i0em1" line="2" shape="G"/>
+                              <keySig xml:id="kwfe6ax1" sig="0"/>
+                              <meterSig xml:id="m1nd39k1" count="3" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="sh9r6lu2" lines="5" n="5">
+                              <label xml:id="l3vvr6i2">2 Oboes</label>
+                              <labelAbbr xml:id="l9obtc71">Ob.</labelAbbr>
+                              <clef xml:id="czkz14r1" line="2" shape="G"/>
+                              <keySig xml:id="kuvwltr1" sig="0"/>
+                              <meterSig xml:id="m9njy5c1" count="3" unit="4"/>
+                           </staffDef>
+                        </staffGrp>
+
+                        <staffDef xml:id="sghrbwa" lines="5" n="6" trans.diat="-2" trans.semi="-3">
+                           <label xml:id="lm6xz53">Clarinet d'amour</label>
+                           <labelAbbr xml:id="lz9dtin1">Ob. d'a.</labelAbbr>
+                           <clef xml:id="c6gm05e1" line="2" shape="G"/>
+                           <keySig xml:id="kpk0t1r2" sig="3f"/>
+                           <meterSig xml:id="ms8rdnl1" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffDef xml:id="sc2j39t1" lines="5" n="7" trans.diat="-4" trans.semi="-7">
+                           <label xml:id="lgrcfih1">English Horn</label>
+                           <labelAbbr xml:id="le7a432">E. Hn.</labelAbbr>
+                           <clef xml:id="cwtiehx2" line="2" shape="G"/>
+                           <keySig xml:id="krlcn2i1" sig="1s"/>
+                           <meterSig xml:id="maeej4x1" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffGrp xml:id="s0unq291" bar.thru="true">
+                           <grpSym xml:id="gx8vol3" symbol="bracketsq"/>
+                           <staffDef xml:id="swagv2x2" lines="5" n="8" trans.diat="-1" trans.semi="-2">
+                              <label xml:id="lij4ckz1">2 Clarinets</label>
+                              <labelAbbr xml:id="lbby8uh1">Cl.</labelAbbr>
+                              <clef xml:id="cbtfh89" line="2" shape="G"/>
+                              <keySig xml:id="ks3fkiu2" sig="2s"/>
+                              <meterSig xml:id="mbftqca1" count="3" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="svb3m061" lines="5" n="9" trans.diat="-1" trans.semi="-2">
+                              <label xml:id="l312bhv2">2 Clarinets</label>
+                              <labelAbbr xml:id="l5gfv2j2">Cl.</labelAbbr>
+                              <clef xml:id="c2t8or21" line="2" shape="G"/>
+                              <keySig xml:id="kyhgh39" sig="2s"/>
+                              <meterSig xml:id="mpf2qdy2" count="3" unit="4"/>
+                           </staffDef>
+                        </staffGrp>
+
+                        <staffDef xml:id="ssv9qn3" lines="5" n="10" trans.diat="2" trans.semi="3">
+                           <label xml:id="ltpuu0n2">Clarinet</label>
+                           <labelAbbr xml:id="lnopor7">Cl.</labelAbbr>
+                           <clef xml:id="c7makk8" line="2" shape="G"/>
+                           <keySig xml:id="k1f7q73" sig="3s"/>
+                           <meterSig xml:id="mlinz1p2" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffDef xml:id="szyvjj81" lines="5" n="11" trans.diat="-1" trans.semi="-2">
+                           <label xml:id="lxmwlxj1">B♭ Bass Clarinet</label>
+                           <labelAbbr xml:id="lr30ie51">B♭ B. Cl.</labelAbbr>
+                           <clef xml:id="ca34dll2" line="2" shape="G"/>
+                           <keySig xml:id="kslo3eb" sig="2s"/>
+                           <meterSig xml:id="mwnnlki2" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffDef xml:id="si9msuv2" lines="5" n="12" trans.diat="2" trans.semi="3">
+                           <label xml:id="lg9uc2g">Sopranino Saxofone</label>
+                           <labelAbbr xml:id="lrosmps2">Si. Sax.</labelAbbr>
+                           <clef xml:id="cq5tmb3" line="2" shape="G"/>
+                           <keySig xml:id="kziz3ak2" sig="3s"/>
+                           <meterSig xml:id="m7bc9h51" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffDef xml:id="ssqwc4v2" lines="5" n="13" trans.diat="-1" trans.semi="-2">
+                           <label xml:id="lcwxqyn1">Soprano Saxofone</label>
+                           <labelAbbr xml:id="lc4thaa1">S. Sax.</labelAbbr>
+                           <clef xml:id="c9spkjy1" line="2" shape="G"/>
+                           <keySig xml:id="kcuu1xo2" sig="2s"/>
+                           <meterSig xml:id="mp4acru2" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffDef xml:id="sivp78m2" lines="5" n="14" trans.diat="-9" trans.semi="-14">
+                           <label xml:id="ljuk8jv1">Tenor Saxofone</label>
+                           <labelAbbr xml:id="l9n2xjv1">T. Sax.</labelAbbr>
+                           <clef xml:id="cavj8wh" line="2" shape="G"/>
+                           <keySig xml:id="kjzbn5r1" sig="2s"/>
+                           <meterSig xml:id="m7nl5qq2" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffDef xml:id="sng3cfj1" lines="5" n="15">
+                           <label xml:id="lxsn3n4">2 Bassoons</label>
+                           <labelAbbr xml:id="lvxb552">Bsn.</labelAbbr>
+                           <clef xml:id="cis6wpn1" line="4" shape="C"/>
+                           <keySig xml:id="kw8x5iv2" sig="0"/>
+                           <meterSig xml:id="ma989gx1" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffDef xml:id="s3yich3" lines="5" n="16" trans.diat="-7" trans.semi="-12">
+                           <label xml:id="loz5hwj1">Contrabasson</label>
+                           <labelAbbr xml:id="lkkrd9s2">Cbsn.</labelAbbr>
+                           <clef xml:id="c57l7a3" line="4" shape="F"/>
+                           <keySig xml:id="kprso7g1" sig="0"/>
+                           <meterSig xml:id="mv21itf1" count="3" unit="4"/>
+                        </staffDef>
+                     </staffGrp>
+
+                     <staffGrp xml:id="sg0aov51" bar.thru="true">
+                        <grpSym xml:id="g1tdhy2" symbol="bracket"/>
+                        <staffGrp xml:id="sdllt3m2" bar.thru="true">
+                           <grpSym xml:id="gayezpe1" symbol="bracketsq"/>
+                           <staffDef xml:id="sst66an1" lines="5" n="17" trans.diat="-4" trans.semi="-7">
+                              <label xml:id="l9dzkml1">4 Horns</label>
+                              <labelAbbr xml:id="l88ej541">F Hn.</labelAbbr>
+                              <clef xml:id="cvv93h7" line="2" shape="G"/>
+                              <keySig xml:id="k0nlmht2" sig="1s"/>
+                              <meterSig xml:id="mj1ma461" count="3" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="s7f0bpg1" lines="5" n="18" trans.diat="-4" trans.semi="-7">
+                              <label xml:id="l9rvyl9">4 Horns</label>
+                              <labelAbbr xml:id="l85z3ou1">F Hn.</labelAbbr>
+                              <clef xml:id="cj5mn24" line="2" shape="G"/>
+                              <keySig xml:id="k9x4aen1" sig="1s"/>
+                              <meterSig xml:id="mb96nmv1" count="3" unit="4"/>
+                           </staffDef>
+                        </staffGrp>
+
+                        <staffDef xml:id="sqnn3o91" lines="5" n="19">
+                           <label xml:id="ljp4c4r2">Trumpet</label>
+                           <labelAbbr xml:id="lumgopi2">Tpt.</labelAbbr>
+                           <clef xml:id="cqe24er1" line="2" shape="G"/>
+                           <keySig xml:id="khrk65i2" sig="0"/>
+                           <meterSig xml:id="mkas7h21" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffDef xml:id="sv941jt1" lines="5" n="20" trans.diat="-1" trans.semi="-2">
+                           <label xml:id="l8ag9if">3 Trompets</label>
+                           <labelAbbr xml:id="ljxnm8t2">Tpt.</labelAbbr>
+                           <clef xml:id="csca4a01" line="2" shape="G"/>
+                           <keySig xml:id="kuhnd7f" sig="2s"/>
+                           <meterSig xml:id="msxfque" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffDef xml:id="shcp34n1" lines="5" n="21" trans.diat="1" trans.semi="2">
+                           <label xml:id="l32kgxj2">Trumpet</label>
+                           <labelAbbr xml:id="lk3eky21">Tpt.</labelAbbr>
+                           <clef xml:id="c26p3dc" line="2" shape="G"/>
+                           <keySig xml:id="k34yrrt2" sig="2f"/>
+                           <meterSig xml:id="mik6kwe1" count="3" unit="4"/>
+                        </staffDef>
+
+                        <staffGrp xml:id="sfz3qrx1" bar.thru="true">
+                           <grpSym xml:id="g7qbypk1" symbol="bracketsq"/>
+                           <staffDef xml:id="sx0sx1e" lines="5" n="22">
+                              <label xml:id="lys0bhx2">3 Trombones</label>
+                              <labelAbbr xml:id="l6ctjrl1">Tbn.</labelAbbr>
+                              <clef xml:id="c6jo7j2" line="4" shape="C"/>
+                              <keySig xml:id="kqopg5w2" sig="0"/>
+                              <meterSig xml:id="mhqeqvw2" count="3" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="spft51v1" lines="5" n="23">
+                              <label xml:id="lbjxcyh1">3 Trombones</label>
+                              <labelAbbr xml:id="l5lb4k11">Tbn.</labelAbbr>
+                              <clef xml:id="c5iovyz2" line="4" shape="C"/>
+                              <keySig xml:id="ksbsgax2" sig="0"/>
+                              <meterSig xml:id="m1gj1di1" count="3" unit="4"/>
+                           </staffDef>
+                        </staffGrp>
+
+                        <staffDef xml:id="s2ua7tu1" lines="5" n="24">
+                           <label xml:id="langgal2">Tuba</label>
+                           <labelAbbr xml:id="lerd1t5">Tba.</labelAbbr>
+                           <clef xml:id="c8f1dc31" line="4" shape="F"/>
+                           <keySig xml:id="kuvdl2l2" sig="0"/>
+                           <meterSig xml:id="m1sa1oq2" count="3" unit="4"/>
+                        </staffDef>
+                     </staffGrp>
+
+                     <staffDef xml:id="sqxtvwa1" lines="5" n="25">
+                        <label xml:id="lx5j23w2">Timpani</label>
+                        <labelAbbr xml:id="lwc965h">Timp.</labelAbbr>
+                        <clef xml:id="c1yp3qc1" line="4" shape="F"/>
+                        <keySig xml:id="ku8guef1" sig="0"/>
+                        <meterSig xml:id="mbhkh5s1" count="3" unit="4"/>
+                     </staffDef>
+
+                     <staffGrp xml:id="s2snz8y2" bar.thru="true">
+                        <grpSym xml:id="gp5bfw31" symbol="bracket"/>
+                        <staffDef xml:id="sy6vtwu1" lines="1" n="26">
+                           <label xml:id="l9ad9x81">2 Snare Drums</label>
+                           <labelAbbr xml:id="lsomypz2">Sn.</labelAbbr>
+                           <clef xml:id="cc7ty9n1" shape="perc"/>
+                           <keySig xml:id="kob57id" sig="0"/>
+                           <meterSig xml:id="moyowzc" count="3" unit="4"/>
+                        </staffDef>
+                        <staffDef xml:id="s3y2g2t2" lines="1" n="27">
+                           <label xml:id="lq0f1sw1">Tam-Tam</label>
+                           <labelAbbr xml:id="lxmvo9v2">Tam</labelAbbr>
+                           <clef xml:id="cq4l2e7" shape="perc"/>
+                           <keySig xml:id="kk4k6sb1" sig="0"/>
+                           <meterSig xml:id="mrx6eit2" count="3" unit="4"/>
+                        </staffDef>
+                        <staffDef xml:id="sbsdh6i2" lines="1" n="28">
+                           <label xml:id="lkc3zt51">Cymbals</label>
+                           <labelAbbr xml:id="lvuykun1">Cym.</labelAbbr>
+                           <clef xml:id="csjc1oy1" shape="perc"/>
+                           <keySig xml:id="kmgfego1" sig="0"/>
+                           <meterSig xml:id="m11tkkf" count="3" unit="4"/>
+                        </staffDef>
+                        <staffDef xml:id="s8gl70k1" lines="1" n="29">
+                           <label xml:id="ls8wj661">Gran Cassa</label>
+                           <labelAbbr xml:id="lbgx4av2">Gc.</labelAbbr>
+                           <clef xml:id="c4ula1x2" shape="perc"/>
+                           <keySig xml:id="kxt9rwl2" sig="0"/>
+                           <meterSig xml:id="mu3mwi7" count="3" unit="4"/>
+                        </staffDef>
+                     </staffGrp>
+
+                     <staffGrp xml:id="soulaoa1" bar.thru="true">
+                        <grpSym xml:id="guqmzyk2" symbol="brace"/>
+                        <label xml:id="ltq1und1">Celesta</label>
+                        <labelAbbr xml:id="l43f9he1">Cel.</labelAbbr>
+                        <staffDef xml:id="scce3tg" lines="5" n="30" trans.diat="7" trans.semi="12">
+                           <clef xml:id="cedcvge" line="2" shape="G"/>
+                           <keySig xml:id="kkemnbq1" sig="0"/>
+                           <meterSig xml:id="mbjnt4f" count="3" unit="4"/>
+                        </staffDef>
+                        <staffDef xml:id="ss4sep8" lines="5" n="31" trans.diat="7" trans.semi="12">
+                           <clef xml:id="ct13rrv1" line="2" shape="G"/>
+                           <keySig xml:id="kfbppmh1" sig="0"/>
+                           <meterSig xml:id="mbdlh1f" count="3" unit="4"/>
+                        </staffDef>
+                     </staffGrp>
+
+                     <staffGrp xml:id="sjz0ip9" bar.thru="true">
+                        <grpSym xml:id="gq279bv1" symbol="brace"/>
+                        <label xml:id="loepu1w1">Harp</label>
+                        <labelAbbr xml:id="l1x29101">Hrp.</labelAbbr>
+                        <staffDef xml:id="sgaq6sr2" lines="5" n="32">
+                           <clef xml:id="cvbli2n2" line="2" shape="G"/>
+                           <keySig xml:id="k0rnxc71" sig="0"/>
+                           <meterSig xml:id="m1rbbnr2" count="3" unit="4"/>
+                        </staffDef>
+                        <staffDef xml:id="sjxnq6t1" lines="5" n="33">
+                           <clef xml:id="cddfgkz1" line="4" shape="F"/>
+                           <keySig xml:id="ki8gkqy2" sig="0"/>
+                           <meterSig xml:id="ms8vuqs1" count="3" unit="4"/>
+                        </staffDef>
+                     </staffGrp>
+
+                     <staffGrp xml:id="s04a0wm2" bar.thru="true">
+                        <grpSym xml:id="ggdh9sw1" symbol="bracket"/>
+
+                        <staffGrp xml:id="sjkrvje1" bar.thru="true">
+                           <grpSym xml:id="g65rn0f" symbol="bracketsq"/>
+                           <staffDef xml:id="spkkt0k1" lines="5" n="34">
+                              <label xml:id="ldle0a41">1st Violins</label>
+                              <labelAbbr xml:id="lco3jn9">Vln. 1</labelAbbr>
+                              <clef xml:id="ca8j3681" line="2" shape="G"/>
+                              <keySig xml:id="kni4vql1" sig="0"/>
+                              <meterSig xml:id="m20nboa" count="3" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="sk9lsfx2" lines="5" n="35">
+                              <label xml:id="l93zdb1">1st Violins</label>
+                              <labelAbbr xml:id="le407mg1">Vln. 1</labelAbbr>
+                              <clef xml:id="c9y6xs11" line="2" shape="G"/>
+                              <keySig xml:id="kx9ts1n1" sig="0"/>
+                              <meterSig xml:id="magmffu2" count="3" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="s3wu65d1" lines="5" n="36">
+                              <label xml:id="lvohdzm1">2nd Violins</label>
+                              <labelAbbr xml:id="lldsvx8">Vln. 2</labelAbbr>
+                              <clef xml:id="cw4q4p9" line="2" shape="G"/>
+                              <keySig xml:id="kz16a91" sig="0"/>
+                              <meterSig xml:id="me7vcc01" count="3" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="s78qtg7" lines="5" n="37">
+                              <label xml:id="lgt6tg41">2nd Violins</label>
+                              <labelAbbr xml:id="ldrj73g1">Vln. 2</labelAbbr>
+                              <clef xml:id="ckbx9pw2" line="2" shape="G"/>
+                              <keySig xml:id="kyb2ayl1" sig="0"/>
+                              <meterSig xml:id="mzz5v23" count="3" unit="4"/>
+                           </staffDef>
+                        </staffGrp>
+
+                        <staffGrp xml:id="sk3r1sj1" bar.thru="true">
+                           <grpSym xml:id="gffjhj6" symbol="bracketsq"/>
+                           <staffDef xml:id="sr0w418" lines="5" n="38">
+                              <label xml:id="lcotyk9">Violas</label>
+                              <labelAbbr xml:id="lf8i4hx2">Vla.</labelAbbr>
+                              <clef xml:id="cygk8jk2" line="3" shape="C"/>
+                              <keySig xml:id="kedqenu2" sig="0"/>
+                              <meterSig xml:id="mw70xwi1" count="3" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="sclfdsj1" lines="5" n="39">
+                              <label xml:id="l006ec5">Viola</label>
+                              <labelAbbr xml:id="lgingxu1">Vla.</labelAbbr>
+                              <clef xml:id="c7o26cn1" line="3" shape="C"/>
+                              <keySig xml:id="k6pk96i2" sig="0"/>
+                              <meterSig xml:id="mqsopc71" count="3" unit="4"/>
+                           </staffDef>
+                        </staffGrp>
+
+                        <staffGrp xml:id="sdj72n3" bar.thru="true">
+                           <grpSym xml:id="g7nsasi1" symbol="bracketsq"/>
+                           <staffDef xml:id="sv3qat51" lines="5" n="40">
+                              <label xml:id="lqqjtxe">Violoncellos</label>
+                              <labelAbbr xml:id="lnac4b31">Vc.</labelAbbr>
+                              <clef xml:id="cppn9mv2" line="4" shape="F"/>
+                              <keySig xml:id="kthatar2" sig="0"/>
+                              <meterSig xml:id="muvwxc41" count="3" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="sg9rs94" lines="5" n="41">
+                              <label xml:id="lkjhttm2">Violoncellos</label>
+                              <labelAbbr xml:id="lpzhysv2">Vc.</labelAbbr>
+                              <clef xml:id="csnczxm1" line="4" shape="F"/>
+                              <keySig xml:id="kmndvmx1" sig="0"/>
+                              <meterSig xml:id="m4phebb1" count="3" unit="4"/>
+                           </staffDef>
+                        </staffGrp>
+
+                        <staffGrp xml:id="ss54pfk2" bar.thru="true">
+                           <grpSym xml:id="g45pd711" symbol="bracketsq"/>
+                           <staffDef xml:id="snqnez7" lines="5" n="42" trans.diat="-7" trans.semi="-12">
+                              <label xml:id="l91b7ns2">Contrabasses</label>
+                              <labelAbbr xml:id="lrq16mi1">Cb.</labelAbbr>
+                              <clef xml:id="ck78bki1" line="4" shape="F"/>
+                              <keySig xml:id="kc48sgu1" sig="0"/>
+                              <meterSig xml:id="mce0v341" count="3" unit="4"/>
+                           </staffDef>
+                           <staffDef xml:id="sicqtj3" lines="5" n="43" trans.diat="-7" trans.semi="-12">
+                              <label xml:id="l7mhzz2">Contrabasses</label>
+                              <labelAbbr xml:id="leiudao2">Cb.</labelAbbr>
+                              <clef xml:id="clx1cjq2" line="4" shape="F"/>
+                              <keySig xml:id="kgvhxgx2" sig="0"/>
+                              <meterSig xml:id="mi3fn8j1" count="3" unit="4"/>
+                           </staffDef>
+                        </staffGrp>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+
+               <section xml:id="szukuyb">
+                  <expansion xml:id="ep0atio1" plist="#secA"/>
+                  <pb xml:id="p70a0pv2"/>
+                  <section xml:id="secA">
+                     <measure xml:id="mn42to4" n="1">
+
+                <hairpin xml:id="ha9hjq21" form="cres" place="below" staff="1" tstamp="1" tstamp2="4"/>
+
+                        <staff xml:id="sfbw6z7" n="1"><layer xml:id="ljqjh8q1" n="1">
+                           <note xml:id="nkv0r1k1" dur="4" oct="6" pname="c"  artic="stacc"/>
+                           <beam xml:id="baoi5zc1">
+                              <note xml:id="n3tclyt1" dur="8" oct="6" pname="d" artic="stacc"/>
+                              <note xml:id="ndb79mt1" dur="8" oct="6" pname="e" artic="stacc"/>
+                           </beam>
+                           <note xml:id="nnhievp2" dur="2" oct="6" pname="f" artic="stacc"/>
+                        </layer></staff>
+
+                        <staff xml:id="sogxa8f" n="2"><layer xml:id="l5yjpb01" n="1">
+                           <note xml:id="nzp3348" dur="4" oct="5" pname="b" artic="ten"/>
+                           <beam xml:id="bdv2a2a1">
+                              <note xml:id="nlljjhj1" dur="8" oct="6" pname="c" artic="ten"/>
+                              <note xml:id="neskr7o2" dur="8" oct="6" pname="d" artic="ten"/>
+                           </beam>
+                           <note xml:id="nejg1x4" dur="2" oct="6" pname="e" artic="ten"/>
+                        </layer></staff>
+
+                        <staff xml:id="s89oz171" n="3"><layer xml:id="lhranzt2" n="1">
+                           <note xml:id="nskbpfk2" dur="4" oct="5" pname="a" artic="marc"/>
+                           <beam xml:id="blfcluu1">
+                              <note xml:id="ndrfhwy2" dur="8" oct="5" pname="b" artic="marc"/>
+                              <note xml:id="n35vpns2" dur="8" oct="6" pname="c" artic="marc"/>
+                           </beam>
+                           <note xml:id="n9or1nr2" dur="2" oct="6" pname="d" artic="marc"/>
+                        </layer></staff>
+
+                        <staff xml:id="sslon6k2" n="4"><layer xml:id="lpxig58" n="1">
+
+                           <note xml:id="nmh7s7c1" dur="4" oct="5" pname="g" />
+                           <beam xml:id="bsbfqxw1">
+                              <note xml:id="nldrzxr1" dur="8" oct="5" pname="a"/>
+                              <note xml:id="nnymj6a" dur="8" oct="5" pname="b"/>
+                           </beam>
+                           <note xml:id="nl38pye1" dur="2" oct="6" pname="c"/>
+                        </layer></staff>
+
+
+                        <staff xml:id="sehstvx1" n="5"><layer xml:id="lueef0l1" n="1">
+                           <note xml:id="n8hyos41" dur="4" oct="5" pname="f"/>
+                           <beam xml:id="bemhblk1">
+                              <note xml:id="noadv4c1" dur="8" oct="5" pname="g"/>
+                              <note xml:id="ngj13pa1" dur="8" oct="5" pname="a"/>
+                           </beam>
+                           <note xml:id="npw4hsu2" dur="2" oct="5" pname="b"/>
+                        </layer></staff>
+
+                        <staff xml:id="sytnwss2" n="6"><layer xml:id="lnmpk4h1" n="1">
+                           <note xml:id="nh5jt7q2" dur="4" oct="5" pname="e"/>
+                           <beam xml:id="bxg2i8v2">
+                              <note xml:id="n3w9su31" dur="8" oct="5" pname="f"/>
+                              <note xml:id="n2z0xfb1" dur="8" oct="5" pname="g"/>
+                           </beam>
+                           <note xml:id="nzr8q2h" dur="2" oct="5" pname="a"/>
+                        </layer></staff>
+
+                        <staff xml:id="sx7ut481" n="7"><layer xml:id="laodozo1" n="1">
+                           <note xml:id="nh7hrp61" dur="4" oct="5" pname="d"/>
+                           <beam xml:id="br3r3ry1">
+                              <note xml:id="nlcxsdg" dur="8" oct="5" pname="e"/>
+                              <note xml:id="ny4685l1" dur="8" oct="5" pname="f"/>
+                           </beam>
+                           <note xml:id="nsjzwsk1" dur="2" oct="5" pname="g"/>
+                        </layer></staff>
+
+                        <staff xml:id="smy5vjp1" n="8"><layer xml:id="lf3qfbi2" n="1">
+                           <note xml:id="ny2xj0y1" dur="4" oct="5" pname="c"/>
+                           <beam xml:id="bvtihpk1">
+                              <note xml:id="ndlodkb" dur="8" oct="5" pname="d"/>
+                              <note xml:id="nkblaks2" dur="8" oct="5" pname="e"/>
+                           </beam>
+                           <note xml:id="nrsthpe" dur="2" oct="5" pname="f"/>
+                        </layer></staff>
+
+                        <staff xml:id="scnqge81" n="9"><layer xml:id="l4r6u9q1" n="1">
+                           <note xml:id="n584oyk1" dur="4" oct="4" pname="b"/>
+                           <beam xml:id="bpnyu6v2">
+                              <note xml:id="nkxnrvs1" dur="8" oct="5" pname="c"/>
+                              <note xml:id="nvv8byf" dur="8" oct="5" pname="d"/>
+                           </beam>
+                           <note xml:id="nvzwy0q1" dur="2" oct="5" pname="e"/>
+                        </layer></staff>
+
+                        <staff xml:id="s4oimy5" n="10"><layer xml:id="lwzx1w9" n="1">
+                           <note xml:id="nx9wv7u1" dur="4" oct="4" pname="a"/>
+                           <beam xml:id="bnufeda1">
+                              <note xml:id="ngzrjpb1" dur="8" oct="4" pname="b"/>
+                              <note xml:id="nu2kzzz2" dur="8" oct="5" pname="c"/>
+                           </beam>
+                           <note xml:id="n766uax1" dur="2" oct="5" pname="d"/>
+                        </layer></staff>
+
+                        <staff xml:id="sg7ex6v2" n="11"><layer xml:id="lxsjqlm2" n="1">
+                           <note xml:id="n2yidsm2" dur="4" oct="4" pname="g"/>
+                           <beam xml:id="b45qzww2">
+                              <note xml:id="nxxroza" dur="8" oct="4" pname="a"/>
+                              <note xml:id="n5f3phs1" dur="8" oct="4" pname="b"/>
+                           </beam>
+                           <note xml:id="nao9djr1" dur="2" oct="5" pname="c"/>
+                        </layer></staff>
+
+                        <staff xml:id="s824a2d1" n="12"><layer xml:id="lftj7fb1" n="1">
+                           <note xml:id="nso6ih31" dur="4" oct="5" pname="f"/>
+                           <beam xml:id="benp4x81">
+                              <note xml:id="n4ughfn2" dur="8" oct="5" pname="g"/>
+                              <note xml:id="nfho7py2" dur="8" oct="5" pname="a"/>
+                           </beam>
+                           <note xml:id="niw6hya" dur="2" oct="5" pname="b"/>
+                        </layer></staff>
+
+                        <staff xml:id="sqch2vo1" n="13"><layer xml:id="ljh7tkf" n="1">
+                           <note xml:id="n0zf3qg" dur="4" oct="5" pname="e"/>
+                           <beam xml:id="brzj8mw2">
+                              <note xml:id="ntx5xhk1" dur="8" oct="5" pname="f"/>
+                              <note xml:id="n4ytjor1" dur="8" oct="5" pname="g"/>
+                           </beam>
+                           <note xml:id="nqegeeq1" dur="2" oct="5" pname="a"/>
+                        </layer></staff>
+
+                        <staff xml:id="s5m28kc" n="14"><layer xml:id="lm0xxdk1" n="1">
+                           <note xml:id="nkqs9nw2" dur="4" oct="4" pname="d"/>
+                           <beam xml:id="b5f77s5">
+                              <note xml:id="nqqu0391" dur="8" oct="4" pname="e"/>
+                              <note xml:id="nywgk671" dur="8" oct="4" pname="f"/>
+                           </beam>
+                           <note xml:id="nnz4129" dur="2" oct="4" pname="g"/>
+                        </layer></staff>
+
+                        <staff xml:id="s0li5v1" n="15"><layer xml:id="lfhgjzg1" n="1">
+                           <note xml:id="nc1hdrx2" dur="4" oct="4" pname="c"/>
+                           <beam xml:id="bvc0yea1">
+                              <note xml:id="nrjykts2" dur="8" oct="4" pname="d"/>
+                              <note xml:id="n5i1k7j1" dur="8" oct="4" pname="e"/>
+                           </beam>
+                           <note xml:id="np7rgh2" dur="2" oct="4" pname="f"/>
+                        </layer></staff>
+
+                        <staff xml:id="smas6tw1" n="16"><layer xml:id="ltwaylu2" n="1">
+                           <note xml:id="nzmkrg6" dur="4" oct="2" pname="b"/>
+                           <beam xml:id="b1i8d481">
+                              <note xml:id="nhzz59x2" dur="8" oct="3" pname="c"/>
+                              <note xml:id="nmt6rct2" dur="8" oct="3" pname="d"/>
+                           </beam>
+                           <note xml:id="n59oybw1" dur="2" oct="3" pname="e"/>
+                        </layer></staff>
+
+                        <staff xml:id="s4skhj8" n="17"><layer xml:id="ls2x1pz1" n="1">
+                           <note xml:id="nf0kdmg" dur="4" oct="4" pname="g"/>
+                           <beam xml:id="b2xrdjo2">
+                              <note xml:id="nn1mhw5" dur="8" oct="4" pname="a"/>
+                              <note xml:id="nesiex9" dur="8" oct="4" pname="b"/>
+                           </beam>
+                           <note xml:id="nzjbuot2" dur="2" oct="5" pname="c"/>
+                        </layer></staff>
+
+                        <staff xml:id="s4b5uog" n="18"><layer xml:id="ldx7eiy1" n="1">
+                           <note xml:id="ns6ymr7" dur="4" oct="4" pname="f"/>
+                           <beam xml:id="brurvud1">
+                              <note xml:id="n2l2rgx1" dur="8" oct="4" pname="g"/>
+                              <note xml:id="n3h9e4y2" dur="8" oct="4" pname="a"/>
+                           </beam>
+                           <note xml:id="nd6ymgq2" dur="2" oct="4" pname="b"/>
+                        </layer></staff>
+
+                        <staff xml:id="sbhxykj2" n="19"><layer xml:id="lu8r7pk2" n="1">
+                           <note xml:id="ng4ujn11" dur="4" oct="5" pname="c"/>
+                           <beam xml:id="b11wnnt2">
+                              <note xml:id="nh5918k2" dur="8" oct="5" pname="d"/>
+                              <note xml:id="nqzwbe7" dur="8" oct="5" pname="e"/>
+                           </beam>
+                           <note xml:id="ntezowr1" dur="2" oct="5" pname="f"/>
+                        </layer></staff>
+
+                        <staff xml:id="s5qh1fm1" n="20"><layer xml:id="lqzwpyt1" n="1">
+                           <note xml:id="no595wp2" dur="4" oct="4" pname="b"/>
+                           <beam xml:id="b4kbiot2">
+                              <note xml:id="n6p4t3t2" dur="8" oct="5" pname="c"/>
+                              <note xml:id="n8zcymw2" dur="8" oct="5" pname="d"/>
+                           </beam>
+                           <note xml:id="nta6rek1" dur="2" oct="5" pname="e"/>
+                        </layer></staff>
+
+                        <staff xml:id="s9uig4q1" n="21"><layer xml:id="lls2guq1" n="1">
+                           <note xml:id="n0n28e51" dur="4" oct="4" pname="a"/>
+                           <beam xml:id="bw6216v2">
+                              <note xml:id="n11r9mf1" dur="8" oct="4" pname="b"/>
+                              <note xml:id="nj701bk2" dur="8" oct="5" pname="c"/>
+                           </beam>
+                           <note xml:id="nqa9lnd" dur="2" oct="5" pname="d"/>
+                        </layer></staff>
+
+                        <staff xml:id="sqoy9j61" n="22"><layer xml:id="lcb9yif" n="1">
+                           <note xml:id="nown219" dur="4" oct="3" pname="f"/>
+                           <beam xml:id="bpyokr1">
+                              <note xml:id="nxukk0n2" dur="8" oct="3" pname="g"/>
+                              <note xml:id="n1m8eqo2" dur="8" oct="3" pname="a"/>
+                           </beam>
+                           <note xml:id="nshps3p2" dur="2" oct="3" pname="b"/>
+                        </layer></staff>
+
+                        <staff xml:id="scqvbn51" n="23"><layer xml:id="l2hka5i1" n="1">
+                           <note xml:id="nry5wec1" dur="4" oct="3" pname="e"/>
+                           <beam xml:id="bir0mxy1">
+                              <note xml:id="nkmtm4m1" dur="8" oct="3" pname="f"/>
+                              <note xml:id="ndgkqnu2" dur="8" oct="3" pname="g"/>
+                           </beam>
+                           <note xml:id="nrysrf51" dur="2" oct="3" pname="a"/>
+                        </layer></staff>
+
+                        <staff xml:id="skdtv791" n="24"><layer xml:id="l6d8krq2" n="1">
+                           <note xml:id="nmwisl71" dur="4" oct="3" pname="c"/>
+                           <beam xml:id="beytkht2">
+                              <note xml:id="nsq31un1" dur="8" oct="3" pname="d"/>
+                              <note xml:id="nsdmg6p2" dur="8" oct="3" pname="e"/>
+                           </beam>
+                           <note xml:id="ncirvah1" dur="2" oct="3" pname="f"/>
+                        </layer></staff>
+
+                        <staff xml:id="stq016y1" n="25"><layer xml:id="le0bpih" n="1">
+                           <note xml:id="nx9bhzb1" dur="4" oct="3" pname="c"/>
+                           <beam xml:id="bdc0dzr1">
+                              <note xml:id="ny4i2ti1" dur="8" oct="3" pname="g"/>
+                              <note xml:id="nnctv4s1" dur="8" oct="4" pname="c"/>
+                           </beam>
+                           <note xml:id="nqb7skv1" dur="2" oct="3" pname="f"/>
+                        </layer></staff>
+
+                        <staff xml:id="scemt6y1" n="26"><layer xml:id="lpt30dt1" n="1">
+                           <note xml:id="ne6u0zg1" dur="4" loc="0"/>
+                           <beam xml:id="b6ebc0t2">
+                              <note xml:id="nmr53pm1" dur="8" loc="0"/>
+                              <note xml:id="nhu2cw61" dur="8" loc="0"/>
+                           </beam>
+                           <note xml:id="n6ncppr2" dur="2" loc="0"/>
+                        </layer></staff>
+
+                        <staff xml:id="so5h3n41" n="27"><layer xml:id="ly13psj1" n="1">
+                           <note xml:id="n2v27d4" dur="4" loc="0"/>
+                           <beam xml:id="b5qxcm61">
+                              <note xml:id="n3yu76r2" dur="8" loc="0"/>
+                              <note xml:id="nakmetl1" dur="8" loc="0"/>
+                           </beam>
+                           <note xml:id="nqoj1rc" dur="2" loc="0"/>
+                        </layer></staff>
+
+                        <staff xml:id="sxvz46i2" n="28"><layer xml:id="lay6qek1" n="1">
+                           <note xml:id="n4a57ei2" dur="4" loc="0"/>
+                           <beam xml:id="bchbubb1">
+                              <note xml:id="nr0ldh41" dur="8" loc="0"/>
+                              <note xml:id="nd41s9e1" dur="8" loc="0"/>
+                           </beam>
+                           <note xml:id="nivoqh81" dur="2" loc="0"/>
+                        </layer></staff>
+
+                        <staff xml:id="stofabl2" n="29"><layer xml:id="lrpdgfn1" n="1">
+                           <note xml:id="na6xgpu2" dur="4" loc="0"/>
+                           <beam xml:id="bdvs0ts1">
+                              <note xml:id="nqvvbtr1" dur="8" loc="0"/>
+                              <note xml:id="na3tlm8" dur="8" loc="0"/>
+                           </beam>
+                           <note xml:id="n65wyo21" dur="2" loc="0"/>
+                        </layer></staff>
+
+                        <staff xml:id="sgjd7h21" n="30"><layer xml:id="lsep0791" n="1">
+                           <note xml:id="nvzt18l1" dur="4" oct="5" pname="c"/>
+                           <beam xml:id="bjlpsl8">
+                              <note xml:id="n8cgvf21" dur="8" oct="5" pname="d"/>
+                              <note xml:id="nm9ockk2" dur="8" oct="5" pname="e"/>
+                           </beam>
+                           <note xml:id="n5k0ih71" dur="2" oct="5" pname="f"/>
+                        </layer></staff>
+
+                        <staff xml:id="sae85oe1" n="31"><layer xml:id="l2jrz4h" n="1">
+                           <note xml:id="n0qldh6" dur="4" oct="5" pname="c"/>
+                           <beam xml:id="bzuq11w2">
+                              <note xml:id="n9qtz7o1" dur="8" oct="5" pname="d"/>
+                              <note xml:id="n43yib21" dur="8" oct="5" pname="e"/>
+                           </beam>
+                           <note xml:id="ne3w92u2" dur="2" oct="5" pname="f"/>
+                        </layer></staff>
+
+                        <staff xml:id="se9vo0r2" n="32"><layer xml:id="lh8vdfi2" n="1">
+                           <note xml:id="nvv801j1" dur="4" oct="5" pname="c"/>
+                           <beam xml:id="b99vlv81">
+                              <note xml:id="nnmjq0p2" dur="8" oct="5" pname="d"/>
+                              <note xml:id="nyrnb9q2" dur="8" oct="5" pname="e"/>
+                           </beam>
+                           <note xml:id="ns5t7t1" dur="2" oct="5" pname="f"/>
+                        </layer></staff>
+
+                        <staff xml:id="s35aj3c1" n="33"><layer xml:id="lcb969c1" n="1">
+                           <note xml:id="nltsdw3" dur="4" oct="3" pname="c"/>
+                           <beam xml:id="b1vbg0m2">
+                              <note xml:id="nrfo8zq2" dur="8" oct="3" pname="d"/>
+                              <note xml:id="nmc13g51" dur="8" oct="3" pname="e"/>
+                           </beam>
+                           <note xml:id="nz5b0tk1" dur="2" oct="3" pname="f"/>
+                        </layer></staff>
+
+                        <staff xml:id="se2k6ba1" n="34"><layer xml:id="lvh9dyj2" n="1">
+                           <note xml:id="nptjw2e" dur="4" oct="5" pname="e"/>
+                           <beam xml:id="blze63o1">
+                              <note xml:id="nhyzw42" dur="8" oct="5" pname="f"/>
+                              <note xml:id="nfhgk02" dur="8" oct="5" pname="g"/>
+                           </beam>
+                           <note xml:id="nlrahjk2" dur="2" oct="5" pname="a"/>
+                        </layer></staff>
+
+                        <staff xml:id="svkp9nb" n="35"><layer xml:id="lavgwa" n="1">
+                           <note xml:id="n6ytld9" dur="4" oct="5" pname="d"/>
+                           <beam xml:id="bece4pm2">
+                              <note xml:id="nltsh751" dur="8" oct="5" pname="e"/>
+                              <note xml:id="ncyr2cb1" dur="8" oct="5" pname="f"/>
+                           </beam>
+                           <note xml:id="nt7n14b1" dur="2" oct="5" pname="g"/>
+                        </layer></staff>
+
+                        <staff xml:id="sw4gme1" n="36"><layer xml:id="lm29ikk2" n="1">
+                           <note xml:id="nhcdq9k2" dur="4" oct="5" pname="c"/>
+                           <beam xml:id="bmcgbkl2">
+                              <note xml:id="n6lbqfn1" dur="8" oct="5" pname="d"/>
+                              <note xml:id="nubfvj61" dur="8" oct="5" pname="e"/>
+                           </beam>
+                           <note xml:id="nwdt7mm2" dur="2" oct="5" pname="f"/>
+                        </layer></staff>
+
+                        <staff xml:id="slsivd" n="37"><layer xml:id="ldn1of31" n="1">
+                           <note xml:id="n3iudic1" dur="4" oct="4" pname="b"/>
+                           <beam xml:id="b5k8epg">
+                              <note xml:id="ns67sxu2" dur="8" oct="5" pname="c"/>
+                              <note xml:id="nw3pa7o2" dur="8" oct="5" pname="d"/>
+                           </beam>
+                           <note xml:id="n67bezj1" dur="2" oct="5" pname="e"/>
+                        </layer></staff>
+
+                        <staff xml:id="so7kjwa" n="38"><layer xml:id="lrh0upk2" n="1">
+                           <note xml:id="njkrzbe1" dur="4" oct="4" pname="a"/>
+                           <beam xml:id="bznow7d1">
+                              <note xml:id="ns25fhe" dur="8" oct="4" pname="b"/>
+                              <note xml:id="no2du431" dur="8" oct="5" pname="c"/>
+                           </beam>
+                           <note xml:id="nvqwr7v2" dur="2" oct="5" pname="d"/>
+                        </layer></staff>
+
+                        <staff xml:id="s4q0gsy2" n="39"><layer xml:id="l5jtqx91" n="1">
+                           <note xml:id="noqe9n6" dur="4" oct="4" pname="g"/>
+                           <beam xml:id="b15qn5u1">
+                              <note xml:id="nm3om12" dur="8" oct="4" pname="a"/>
+                              <note xml:id="nzrkz0p2" dur="8" oct="4" pname="b"/>
+                           </beam>
+                           <note xml:id="n96asz51" dur="2" oct="5" pname="c"/>
+                        </layer></staff>
+
+                        <staff xml:id="sysrtky1" n="40"><layer xml:id="lhwkn0j1" n="1">
+                           <note xml:id="nahzw67" dur="4" oct="3" pname="f"/>
+                           <beam xml:id="by8lzdk2">
+                              <note xml:id="nrvur5r1" dur="8" oct="3" pname="g"/>
+                              <note xml:id="nt4hlre1" dur="8" oct="3" pname="a"/>
+                           </beam>
+                           <note xml:id="nb1p4b71" dur="2" oct="3" pname="b"/>
+                        </layer></staff>
+
+                        <staff xml:id="spno5ng" n="41"><layer xml:id="l1d9y171" n="1">
+                           <note xml:id="nzspkny1" dur="4" oct="3" pname="e"/>
+                           <beam xml:id="bvhzapk2">
+                              <note xml:id="nblxo1w1" dur="8" oct="3" pname="f"/>
+                              <note xml:id="ngw2fc7" dur="8" oct="3" pname="g"/>
+                           </beam>
+                           <note xml:id="nnyf15y2" dur="2" oct="3" pname="a"/>
+                        </layer></staff>
+
+                        <staff xml:id="s799gxv2" n="42"><layer xml:id="l40s2tx1" n="1">
+                           <note xml:id="ngv69601" dur="4" oct="3" pname="c"/>
+                           <beam xml:id="bboz2kc">
+                              <note xml:id="no0t3ak1" dur="8" oct="3" pname="d"/>
+                              <note xml:id="nng6k4t1" dur="8" oct="3" pname="e"/>
+                           </beam>
+                           <note xml:id="nf4aik01" dur="2" oct="3" pname="f"/>
+                        </layer></staff>
+
+                        <staff xml:id="sv2r6ey2" n="43"><layer xml:id="lk52gwa" n="1">
+                           <note xml:id="nuuffez1" dur="4" oct="1" pname="b"/>
+                           <beam xml:id="bir4hhm1">
+                              <note xml:id="n4ympns1" dur="8" oct="2" pname="c"/>
+                              <note xml:id="nmu77td" dur="8" oct="2" pname="d"/>
+                           </beam>
+                           <note xml:id="nxac53p2" dur="2" oct="2" pname="e"/>
+                        </layer></staff>
+
+                        <tempo xml:id="tjcsz781" mm="48" mm.unit="4" place="above" staff="1" tstamp="1">♩ = 48</tempo>
+                     </measure>
+                  </section>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
